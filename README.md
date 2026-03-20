@@ -88,9 +88,9 @@ curl -X DELETE http://127.0.0.1:8081/collections/users/documents/1001
 
 ## 文档与资源
 
-- [用户手册](DragonDB 使用手册.md) – 安装、配置、API 详解、运维指南。
-- [开发手册](DragonDB 开发手册.md) – 数据模型设计、权限管理、最佳实践。
-- [API 参考](docs/DragonDB Shell 启动脚本.md) – 完整的 HTTP 接口说明。
+- [用户手册](docs/user_manual.md) – 安装、配置、API 详解、运维指南。
+- [开发手册](docs/developer_manual.md) – 数据模型设计、权限管理、最佳实践。
+- [API 参考](docs/api_reference.md) – 完整的 HTTP 接口说明。
 - [贡献指南](CONTRIBUTING.md) – 如何参与项目开发。
 
 ---

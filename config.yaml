@@ -1,0 +1,21 @@
+# 全局集群设置
+cluster:
+  replication_factor: 3   # 默认副本数
+
+# 节点列表（所有节点信息）
+nodes:
+  node1:
+    host: 127.0.0.1
+    port: 8081            # HTTP 服务端口（同时用于外部 API 和内部 RPC）
+    data_dir: ./data/node1
+    storage_options:
+      sync_wal: false
+  node2:
+    host: 127.0.0.1       # 单机多节点时可用相同 IP
+    port: 8082
+    data_dir: ./data/node2
+  node3:
+    #host: 192.168.2.62   # 多机时指定不同 IP
+    host: 127.0.0.1   # 多机时指定不同 IP
+    port: 8083
+    data_dir: ./data/node3
